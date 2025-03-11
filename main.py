@@ -4,7 +4,7 @@ from player import Player
 # Initialize pygame
 pygame.init()
 
-# Constants
+
 SCREEN_WIDTH = 960
 SCREEN_HEIGHT = 540
 BACKGROUND_COLOR = (75, 0, 130)  # purple
