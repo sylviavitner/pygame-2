@@ -43,6 +43,11 @@ class Player:
             if self.animation_timer >= self.animation_speed:
                 self.animation_timer = 0
                 self.current_image = (self.current_image + 1) % len(self.images)
+        
+        if not self.moving:
+            self.current_image = 1 # return to starting position
+            # TODO
+            # Update sprite sheet and implement idle player animation
     
     def update(self):
         # Updates player movement and animation
